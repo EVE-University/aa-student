@@ -1,0 +1,12 @@
+{% extends 'allianceauth/base-bs5.html' %}
+{% load i18n %}
+
+{% block page_title %}{% translate "Student" %}{% endblock %}
+
+{% block content %}
+    <div class="aa-student-plugin">
+        <h1 class="page-header text-center">{% translate "Student Titles" %}</h1>
+
+        {% block details %}{% endblock %}
+    </div>
+{% endblock %}
